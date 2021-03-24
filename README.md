@@ -23,6 +23,14 @@
 # About The Project
  -  A music website that utilizes Spotify's API and effective algorithims to suggest artists and songs; based upon your previous choices in music 
 
+# Project Plan
+| Week | Lola | Val | Michael | Nick | Ryan |
+| ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+|  0| Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
+|  1| Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
+|  2| add here | add here | add here | add here | add here |
+|  3| add here | add here | add here | add here | add here |
+|  4| add here | add here | add here | add here | add here |
 # [Scrum Board](https://github.com/MaxVukovich/P2Lions/projects/1?fullscreen=true)
  - The Scrum Board is integral to efficent and productive team managment. 
  - We have "stories" which are like tasks that are moved through categories such as: back log / in progress / done
@@ -56,3 +64,5 @@ Team Contributes will be found [HERE](https://github.com/ryanshay18/P3Parrots/gr
 #Tickets
 <!-- # Previous Assignments -->
 <!-- Can add previous stuff you did here -->
+
+
