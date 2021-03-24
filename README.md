@@ -22,6 +22,7 @@
 
 # About The Project
  -  A music website that utilizes Spotify's API and effective algorithims to suggest artists and songs; based upon your previous choices in music 
+ -  Here is the API we are planning to use, if all goes according to plan: https://developer.spotify.com/documentation/web-api/
 
 # Project Plan
 | Week | Lola | Val | Michael | Nick | Ryan |
