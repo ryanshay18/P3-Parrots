@@ -27,10 +27,10 @@
 # Project Plan
 | Week | GOALS | Lola | Val | Michael | Nick | Ryan |
 | ------------- | ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|  0| add here | Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
-|  1| add here | Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
-|  2| add here | add here | add here | add here | add here | add here |
-|  3| add here | add here | add here | add here | add here | add here |
+|  0| Brainstorm project Ideas, repo & slack setup | Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
+|  1| Form project plan and assign roles, set up deliverable for crossover grading | Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
+|  2| Start on everyone's role, have tangibles for end of week, project should run with baseline code | add here | add here | add here | add here | add here |
+|  3| add here| add here | add here | add here | add here | add here |
 |  4| add here | add here | add here | add here | add here | add here |
 # [Scrum Board](https://github.com/MaxVukovich/P2Lions/projects/1?fullscreen=true)
  - The Scrum Board is integral to efficent and productive team managment. 
