@@ -54,10 +54,6 @@ def index():
 def leaderboards():
     return render_template("leaderboards.html")
 
-@app.route('/blackjack')
-def blackjack():
-    return render_template('blackjack.html')
-
 @app.route('/easteregg1')
 def easteregg():
     return render_template('easteregg.html')
@@ -102,10 +98,6 @@ def dashboard():
 def logout():
     logout_user()
     return redirect(url_for('home'))
-
-@app.route('/war')
-def war():
-    return render_template("war.html")
 
 @app.route('/future')
 def future():
