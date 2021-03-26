@@ -25,13 +25,13 @@
  -  Here is the API we are planning to use, if all goes according to plan: https://developer.spotify.com/documentation/web-api/
 
 # Project Plan
-| Week | Lola | Val | Michael | Nick | Ryan |
-| ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-|  0| Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
-|  1| Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
-|  2| add here | add here | add here | add here | add here |
-|  3| add here | add here | add here | add here | add here |
-|  4| add here | add here | add here | add here | add here |
+| Week | GOALS | Lola | Val | Michael | Nick | Ryan |
+| ------------- | ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+|  0| add here | Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
+|  1| add here | Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
+|  2| add here | add here | add here | add here | add here | add here |
+|  3| add here | add here | add here | add here | add here | add here |
+|  4| add here | add here | add here | add here | add here | add here |
 # [Scrum Board](https://github.com/MaxVukovich/P2Lions/projects/1?fullscreen=true)
  - The Scrum Board is integral to efficent and productive team managment. 
  - We have "stories" which are like tasks that are moved through categories such as: back log / in progress / done
