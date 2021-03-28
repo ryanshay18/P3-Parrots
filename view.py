@@ -7,12 +7,12 @@ from flask_wtf.csrf import CSRFProtect, CSRFError
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
-from codingexcercises.minilabs import minilabs
+from codingexcercises.minilabs import minilabs_blueprint
 import requests as r
 import json as j
 
 app = Flask(__name__)
-app.register_blueprint(minilabs)
+app.register_blueprint(minilabs_blueprint)
 
 app.config['SECRET_KEY'] = 'I<+g/P2N$}0GXO00'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
