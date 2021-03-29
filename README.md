@@ -28,7 +28,7 @@
 | Week | GOALS | Lola | Val | Michael | Nick | Ryan |
 | ------------- | ------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 |  0| Brainstorm project Ideas, repo & slack setup | Created Project Board | Researched Databases for project | Brainstormed Ideas to incorporate| Brainstormed Ideas to incorporate | Created Repo and Scrum Team set-up |
-|  1| Form project plan and assign roles, set up deliverable for crossover grading | Created Project Plan Documents | Created Blueprints| Rasberry Pi setup | Routes setup |  Flowchart and Blueprints |
+|  1| Form project plan and assign roles, set up deliverable for crossover grading | Created Project Plan Documents | Created Blueprints| Raspberry Pi setup | Routes setup |  Flowchart and Blueprints |
 |  2| Start on everyone's role, have tangibles for end of week, project should run with baseline code | add here | add here | add here | add here | add here |
 |  3| add here| add here | add here | add here | add here | add here |
 |  4| add here | add here | add here | add here | add here | add here |
