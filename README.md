@@ -1,6 +1,6 @@
  <!-- PROJECT LOGO -->
 <h1 align="center">Period 3 Parrots</h1>
-<h1 align="center">parrotgames.tk</h1>
+<h1 align="center">http://parrotgames.tk/</h1>
 
 <!-- TABLE OF CONTENTS -->
 # Table Of Contents
