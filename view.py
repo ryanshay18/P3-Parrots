@@ -1,18 +1,23 @@
-from flask import Flask, render_template, redirect, url_for, request
-from flask_bootstrap import Bootstrap
+from flask import Flask, render_template, redirect, url_for
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField
 from wtforms.validators import InputRequired, Email, Length
-from flask_wtf.csrf import CSRFProtect, CSRFError
+from flask_wtf.csrf import CSRFProtect
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
-from codingexcercises.minilabs import minilabs_blueprint
+from codingexercises.minilabs import minilabs_blueprint
 import requests as r
 import json as j
 
+from codingexercises import codingexercises_pigeon_bp
+
 app = Flask(__name__)
+app.register_blueprint(codingexercises_pigeon_bp, url_prefix='/codingexercises/pigeon')
+
 app.register_blueprint(minilabs_blueprint)
+
+
 
 app.config['SECRET_KEY'] = 'I<+g/P2N$}0GXO00'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
@@ -116,11 +121,6 @@ def logout():
 @app.route('/future')
 def future():
     return render_template('futuregames.html')
-
-
-@app.route('/minilabs.html')
-def minilabs():
-    return render_template('minilabs.html')
 
 
 if __name__ == "__main__":
