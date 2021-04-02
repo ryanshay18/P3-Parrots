@@ -25,41 +25,48 @@ csrf.init_app(app)
 login_manager.login_view = 'login'
 
 
-class User(UserMixin, db.Model): #Creates columns inside of the database
+class User(UserMixin, db.Model):  # Creates columns inside of the database
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(15), unique=True) #username column
-    email = db.Column(db.String(50), unique=True) #email column
-    password = db.Column(db.String(80)) #password column
+    username = db.Column(db.String(15), unique=True)  # username column
+    email = db.Column(db.String(50), unique=True)  # email column
+    password = db.Column(db.String(80))  # password column
+
 
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
+
 
 class LoginForm(FlaskForm):
     username = StringField('username', validators=[InputRequired(), Length(min=4, max=15)])
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
     remember = BooleanField('remember me')
 
+
 class RegisterForm(FlaskForm):
     email = StringField('email', validators=[InputRequired(), Email(message='Invalid email'), Length(max=50)])
     username = StringField('username', validators=[InputRequired(), Length(min=4, max=15)])
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
 
+
 @app.route('/')
 def index():
-    #Gets the api data from web
+    # Gets the api data from web
     x = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
-    data = j.loads(x.content) #Fetch rest api data
-    fact = data.get("text") #Fetch rest api data
-    return render_template("index.html", fact=fact) #Fetch rest api data
+    data = j.loads(x.content)  # Fetch rest api data
+    fact = data.get("text")  # Fetch rest api data
+    return render_template("index.html", fact=fact)  # Fetch rest api data
+
 
 @app.route('/leaderboards')
 def leaderboards():
     return render_template("leaderboards.html")
 
+
 @app.route('/easteregg1')
 def easteregg():
     return render_template('easteregg.html')
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -73,9 +80,10 @@ def login():
                 return redirect(url_for('dashboard'))
 
         return render_template('invalid.html', form=form)
-    #return '<h1>' + form.username.data + ' ' + form.password.data + '</h1>'
+    # return '<h1>' + form.username.data + ' ' + form.password.data + '</h1>'
 
     return render_template('login.html', form=form)
+
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
@@ -91,10 +99,12 @@ def signup():
     # return '<h1>' + form.username.data + ' ' + form.email.data + ' ' + form.password.data + '</h1>'
     return render_template('signup.html', form=form)
 
+
 @app.route('/dashboard')
 @login_required
 def dashboard():
     return render_template('dashboard.html', name=current_user.username)
+
 
 @app.route('/logout')
 @login_required
@@ -102,12 +112,18 @@ def logout():
     logout_user()
     return redirect(url_for('home'))
 
+
 @app.route('/future')
 def future():
     return render_template('futuregames.html')
 
 
-if __name__ == "__main__":
-    app.run(debug=True, host='192.168.1.196', port='8080')
+@app.route('/minilabs.html')
+def minilabs():
+    return render_template('minilabs.html')
 
-#yolo
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+# yolo
