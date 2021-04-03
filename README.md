@@ -35,11 +35,11 @@
 # [Scrum Board](https://github.com/MaxVukovich/P2Lions/projects/1?fullscreen=true)
  - The Scrum Board is integral to efficent and productive team managment. 
  - We have "stories" which are like tasks that are moved through categories such as: back log / in progress / done
- Nick: helped develop 
- Valerie:
- Ryan:
- Michael:
- Lola: 
+ - Nick: helped develop readm.me organization, front end html changes, and the about us creater page
+ - Valerie: Worked on navigation bar 
+ - Ryan: Created log in system and page creation, along as set up blueprint framework for minilabs
+ - Michael: developed deployment, raspbarry pi, and created feedback page with users opinions
+ - Lola: Made front end creation of home page with a description and helped on jinja templates with a home page. 
 # Contributors
 Team Contributes will be found [HERE](https://github.com/ryanshay18/P3Parrots/graphs/contributors), this shows each contributer, with data of their contributes such as detail of commit, quantity of commit, and time of commit.
 
