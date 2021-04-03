@@ -35,7 +35,7 @@
 # [Scrum Board](https://github.com/MaxVukovich/P2Lions/projects/1?fullscreen=true)
  - The Scrum Board is integral to efficent and productive team managment. 
  - We have "stories" which are like tasks that are moved through categories such as: back log / in progress / done
- - Nick: helped develop readm.me organization, front end html changes, and the about us creater page
+ - Nick: helped develop readm.me organization, front end html changes, and the about us creator page
  - Valerie: Worked on navigation bar 
  - Ryan: Created log in system and page creation, along as set up blueprint framework for minilabs
  - Michael: developed deployment, raspbarry pi, and created feedback page with users opinions
