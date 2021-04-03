@@ -1,7 +1,7 @@
  <!-- PROJECT LOGO -->
 <h1 align="center">Period 3 Parrots</h1>
 <h1 align="center">http://parrotgames.tk/</h1>
-<h1 align="center">Minilab in ["Coding Excercises"](https://github.com/ryanshay18/P3-Parrots/tree/main/codingexercises) Blueprint module</h1>
+<h1 align="center">Minilab in [Coding Excercises](https://github.com/ryanshay18/P3-Parrots/tree/main/codingexercises) Blueprint module</h1>
 
 <!-- TABLE OF CONTENTS -->
 # Table Of Contents
