@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style = "color:rgb(255,194,68);font-size:34px;">CODIFY by the Parrots</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="/ryanminilab" style = "color:rgb(255,194,68);font-size:18px;">Ryan's Minilab<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/pigeon" style = "color:rgb(255,194,68);font-size:18px;">Valeries's Minilab<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/lolaminilab" style = "color:rgb(255,194,68);font-size:18px;">Lolas's Minilab<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/mikey" style = "color:rgb(255,194,68);font-size:18px;">Micheal's Minilab<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/nicklab" style = "color:rgb(255,194,68);font-size:18px;">Nicks's Minilab<span class="sr-only">(current)</span></a>
+        </div>
+    </div>
+</nav>
+
+
+{% block body %}
+
+<h2> MiniLabs Page</h2>
+
+<p> Welcome to our MiniLab page! Here you will find our code for any labs assigned in class, separated in the table
+below.</p>
+
+
+
+<table style="width:100%">
+    <tr>
+        <th>Names</th>
+        <td>Ryan</td>
+        <td>Lola</td>
+        <td>Nick</td>
+        <td>Valerie</td>
+        <td>Michael</td>
+
+    </tr>
+    <tr>
+        <th>MiniLab 1 Code</th>
+        <td> # code </td>
+    </tr>
+</table>
+
+{% endblock %}

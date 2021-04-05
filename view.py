@@ -6,17 +6,23 @@ from flask_wtf.csrf import CSRFProtect
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
-from codingexercises.minilabs import minilabs_blueprint
 import requests as r
 import json as j
 
-from codingexercises import codingexercises_pigeon_bp
+from codinglearning.ryan.ryan import ryan_blueprint
+from codinglearning.lola.lola import lola_blueprint
+from codinglearning.nick.nick import nick_blueprint
+from codinglearning.micheal.micheal import micheal_blueprint
+from codinglearning.valerie.valerie import valerie_blueprint
+
 
 app = Flask(__name__)
-app.register_blueprint(codingexercises_pigeon_bp, url_prefix='/codingexercises/pigeon')
 
-app.register_blueprint(minilabs_blueprint)
-
+app.register_blueprint(ryan_blueprint)
+app.register_blueprint(lola_blueprint)
+app.register_blueprint(nick_blueprint)
+app.register_blueprint(micheal_blueprint)
+app.register_blueprint(valerie_blueprint)
 
 
 app.config['SECRET_KEY'] = 'I<+g/P2N$}0GXO00'
@@ -124,6 +130,6 @@ def future():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='192.168.1.196', port='8080')
+    app.run(debug=True)
 
 # yolo

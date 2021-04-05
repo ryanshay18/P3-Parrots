@@ -3,9 +3,9 @@
 {% extends "base.html" %}
 
 {% block body %}
-<h3>Prime numbers from 2 to {{pigeon.get_n}}</h3>
+<h3>Prime numbers from 2 to {{ryanLab.get_n}}</h3>
 
-{% for i in pigeon.get_primes() %}
+{% for i in ryanLab.get_primes %}
 {{i}},
 {% endfor %}
 <h2 style="text-align: center; font-family: times; color:red; font-size 25px"> Uses blueprint structure </h2>
@@ -13,3 +13,4 @@
 <h2 style="text-align: center; font-family: times; color:red; font-size 25px"> I created an object </h2>
 <h2 style="text-align: center; font-family: times; color:red; font-size 25px"> Displays data using getters </h2>
 <h4 style="text-align: center; font-family: times; color:red; font-size 10px"> Reflection/WOW: The math required a long with the proper use of getters </h4>
+{% endblock %}
